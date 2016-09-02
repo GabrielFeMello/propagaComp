@@ -1,0 +1,1345 @@
+body{
+	margin:0;
+    overflow:hidden;
+}
+p{
+	margin:0;
+}
+.container{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	text-align: center;
+    overflow:hidden;
+    background-color: #e1e1e1;
+}
+.container-main-01{
+	background-image: url(../../assets/background/B0-face-pintada.jpg);
+	width: 100%;
+	display: block;
+	height: 70%;
+	background-size: 2300px;
+	background-position-y: bottom;
+	background-position-x: 75%;
+	background-repeat: no-repeat;
+}
+.container-main-02{
+	background: black url(../../assets/background/B0-sand-background.jpg);
+	width: 100%;
+	height: 30%;
+	background-size: 1920px;
+	background-repeat: no-repeat;
+	background-position-x: 75%;
+	background-position-y: top;
+}
+
+.call{
+	vertical-align: middle;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+	top:0;
+	background-repeat: no-repeat;
+}
+
+.call.exit-comunica{
+	background-image: url(../../assets/textos/calls/exit_comunica.png);
+	width: 100%;
+	background-position-y: 50%;
+	background-position-x: 39%;
+}
+
+.exit-comunica-2{
+	background-image: url(../../assets/images/_comunica_negocios.png);
+	width: 100%;
+	vertical-align: middle;
+	height: 100%;
+	position: absolute;
+	bottom:-100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.exit-comunica-3{
+	background-image: url(../../assets/images/_isso-faz-diferenca.png);
+	width: 100%;
+	vertical-align: middle;
+	height: 100%;
+	position: absolute;
+	bottom:-100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.next{
+	position: absolute;
+	height: 75px;
+	width: 75px;
+	background-repeat: no-repeat;
+}
+
+.top{
+	margin-top: 0px;
+	background-position: top;
+	background-size: 75px;
+	width: 100%;
+	background-image: url(../../assets/icones/know-it-top.png);
+	z-index: 10000;
+	margin-bottom: 0px;
+}
+
+.down{
+	background-position: center;
+	background-size: 75px;
+	width: 100%;
+	background-image: url(../../assets/icones/conheca-down.png);
+	z-index: 10000;
+	margin-bottom: 0px;
+}
+
+.right{
+	background-position-y: center;
+	background-position-x: right;
+	background-size: 75px;
+	height: 100%;
+	background-image: url(../../assets/icones/C0-saiba-direita.png);
+	z-index: 10000;
+	margin-bottom: 0px;
+}
+
+@media screen and (min-width: 1480px), screen and (min-height: 750px) {
+	.down{bottom: 5%;}
+	.right{right: 5%;}
+	.top{top: 5%;}
+}
+
+@media screen and (max-width: 1479px), screen and (max-height: 751px) {
+	.down{bottom: -50px;}
+	.right{right: -40px;}
+	.top{top: -50px;}
+}
+
+
+.container-people{
+	bottom:-100%;
+}
+.clients-table{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	bottom: -100%;
+	z-index: 10;
+	background-image:  url(../../assets/images/clients-list.png);
+    background-position: center;
+    background-repeat:no-repeat;
+}
+
+.index-first{
+	position: absolute;
+	right: -100%;
+	width: 100%;
+	height: 100%;
+	z-index: 200;
+	background-color: #e1e1e1;
+}
+
+/* Analise de MERCADO e APLICACAO*/
+
+.cover{
+	position: absolute;
+	background: #dddddd url(../../assets/textos/calls/da_analise_a_execucao.png) center;
+	width: 100%;
+	display: block;
+	height: 100%;
+	bottom: -100%;
+	/*background-position-y: bottom;*/
+	/*background-position-x: 75%;*/
+	background-repeat: no-repeat;
+}
+
+.cover-02{
+	position: absolute;
+	background: #fd713b url(../../assets/textos/calls/inteligencia_para.png) center;
+	width: 100%;
+	bottom: -100%;
+	display: block;
+	height: 100%;
+	/*background-position-y: bottom;*/
+	/*background-position-x: 75%;*/
+	background-repeat: no-repeat;
+}
+
+.stronger {
+	bottom: -100%;
+	height: 100%;
+}
+
+.serviceses{
+	height: 100%;
+	min-width: 1195px;
+	width: 100%;
+}
+
+.down-middles{
+	bottom: -100%;
+	top:100%;
+	position: absolute;
+}
+
+.strategy-naming{
+	background-repeat: no-repeat;
+	background-image: url(../../assets/textos/naming-strategy.png);
+	background-position-y:bottom;
+	background-position-x: left;
+	height: 290px;
+	width: 1100px;
+	margin: auto;
+	z-index: 10;
+	left: 0;right: 0;
+}
+
+.comunication-naming{
+	background-repeat: no-repeat;
+	background-image: url(../../assets/textos/naming-comunication.png);
+	background-position-y:bottom;
+	background-position-x: center;
+	height: 290px;
+	width: 1200px;
+	margin: auto;
+	left: 0;right: 0;
+	z-index: 10;
+}
+
+.vm-naming{
+	background-repeat: no-repeat;
+	background-image: url(../../assets/textos/naming-vm.png);
+	background-position-y:bottom;
+	background-position-x: right;
+	height: 290px;
+	width: 1200px;
+	margin: auto;
+	left: 0;right: 0;
+	z-index: 10;
+}
+
+
+.strategindo{
+	width: auto;
+	height: 1650px;
+	background-size: 1650px;
+    background-position-x: right;
+    background-position-y: top;
+    background-repeat:no-repeat;
+	background-image: url(../../assets/background/B0-estrategia.jpg) ;
+}
+.comunicando{
+	width: 400px;
+	background-size: 1650px;
+    background-position-x: center;
+    background-position-y: top;
+    background-repeat:no-repeat;
+	background-image: url(../../assets/background/B0-comunicacao.jpg) ;
+}
+.visuando{
+	width: auto;
+	background-size: 1650px;
+    background-position-x: left;
+    background-position-y: top;
+    background-repeat:no-repeat;
+	background-image: url(../../assets/background/B0-vm.jpg) ;
+}
+
+.strategy {
+	text-align: right;
+	position: absolute;
+	left: 0%;
+	width: 35%;
+	height: 100%;
+	background-image: url(../../assets/background/B0-estrategia.jpg) ;
+	background-size: 1650px;
+    background-position-x: right;
+    background-position-y: center;
+    background-repeat: no-repeat;
+}
+
+.communication {
+	text-align: center;
+	position: absolute;
+	left: 35%;
+	width: 30%;
+	height: 100%;
+	background-image: url(../../assets/background/B0-comunicacao.jpg) ;
+	background-size: 1650px;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+}
+
+.visual-m {
+	text-align: left;
+	position: absolute;
+	left: 65%;
+	width: 35%;
+	height: 100%;
+	background-image: url(../../assets/background/B0-vm.jpg) ;
+	background-size: 1650px;
+    background-position-x: left;
+    background-position-y: center;
+    background-repeat: no-repeat;
+}
+
+.strategy > img{
+	position: absolute;
+	height: 65px;
+	top:0; bottom:0;left:0;right:0;
+	margin:auto;
+	padding-top: 150px;
+}
+
+.communication > img{
+	position: absolute;
+	height: 65px;
+	top:0; bottom:0;left:0;right:0;
+	margin:auto;
+	padding-top: 150px;
+}
+
+.visual-m > img{
+	position: absolute;
+	height: 100px;
+	top:0; bottom:0;left:0;right:0;
+	margin:auto;
+	padding-top: 150px;
+}
+
+
+.services {
+	bottom: -100%;
+	z-index: 100;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	text-align: center;
+}
+
+.circles {
+	background-size:400px;
+	background-position:center;
+    background-repeat: no-repeat;
+	background-image: url(../../assets/images/vd-circle.png);
+	z-index: 100;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+
+.slc-st{
+	cursor: pointer;
+	position: absolute;
+	left: 0%;
+	width: 35%;
+	height: 100%;
+	z-index: 1000;
+}
+
+.slc-co{
+	cursor: pointer;
+	position: absolute;
+	left: 35%;
+	width: 30%;
+	height: 100%;
+	z-index: 1000;
+}
+
+.slc-vd{
+	cursor: pointer;
+	position: absolute;
+	left: 65%;
+	width: 35%;
+	height: 100%;
+	z-index: 1000;
+}
+
+.disabled{
+	display: none;
+}
+
+.next-right{
+	right: -100%;
+}
+
+/*	ESTRATEGIA	*/
+.strategy-area{
+	position: absolute;
+	height: 100%;
+	bottom: 0%;
+	width:100%;
+	background-size:1950px;
+    background-position-x: right;
+    background-position-y: center;
+    background-repeat: no-repeat;
+	background-image: url(../../assets/background/B0-estrategia.jpg) ;
+}
+.strategy-caller{
+	position: absolute;
+	height: 100%;
+	width:100%;
+	background-size:1200px;
+	background-position:center;
+	background-image: url(../../assets/textos/_estrategia.png) ;
+    background-repeat: no-repeat;
+}
+.strategy-cover{
+	position: absolute;
+	height: 100%;
+	width:100%;
+	background-size: 1900px;
+	background: url(../../assets/images/cover-screen-dot.png) center center;
+	background-position:center;
+    background-repeat: no-repeat;
+}
+.strategy-text{
+	position: absolute;
+	top: 0; bottom: 0;right: -100%;left: 100%;
+	margin: auto;
+	height: 100%;
+	width:1000px;
+	background-size: 573px;
+	background-position-y:center;
+	background-position-x:right;
+	background-image: url(../../assets/textos/estrategia-text-01.png) ;
+    background-repeat: no-repeat;
+}
+
+.gps-white{
+	position: absolute;
+	height: 600px;
+	width:1085px;
+	margin: auto;
+  	top: 0; left: 0; bottom: 0; right: -100%;
+	background-size: 200px;
+	background-position-y:top;
+	background-position-x:right;
+    background-repeat: no-repeat;
+	background-image: url(../../assets/estrategia/gps-branco.png) ;
+}
+.step-store{
+	position: absolute;
+	height: 500px;
+	width: 800px;
+	top: 0; bottom: 0; left: 0; right: 0;
+	margin: auto;
+}
+
+.results{
+    background-image: url(../../assets/estrategia/resultado.png);
+    height: 500px;
+    width: 200px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10000;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    position: absolute;
+}
+
+.baloon{
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+.baloon-1{background-image:url(../../assets/estrategia/Baloon-1.png);
+	background-size:160px;
+	z-index: 100;}
+.baloon-2{background-image:url(../../assets/estrategia/Baloon-2.png);
+	background-size:140px;
+	z-index: 100;}
+.baloon-3{background-image:url(../../assets/estrategia/Baloon-3.png);
+	background-size:120px;
+	z-index: 100;}
+.baloon-4{background-image:url(../../assets/estrategia/Baloon-4.png);
+	background-size:100px;
+	z-index: 100;}
+
+.background{
+	position: absolute;
+	left: 0%;
+	bottom: -100%;
+	background-color:white;
+	height: 65%;
+	z-index: 0;
+	width: 45%;
+}
+.background-black{
+	position: absolute;
+	left: 45%;
+	bottom: -100%;
+	background-color:black;
+	height: 65%;
+	width: 20%;
+	z-index: 0;
+}
+.background-orange{
+	position: absolute;
+	left: 65%;
+	bottom: -100%;
+	background-color:#fd713b;
+	height: 65%;
+	width: 40%;
+	z-index: 0;
+}
+
+.title{margin-top: 225px; background-position: center top;}
+.title-1{background-image:url(../../assets/estrategia/title-1.png);
+	background-size:95px;
+	z-index: 100;}
+.title-2{background-image:url(../../assets/estrategia/title-2.png);
+	background-size:110px;
+	z-index: 100;}
+.title-3{background-image:url(../../assets/estrategia/title-3.png);
+	background-size:120px;
+	z-index: 100;}
+.title-4{background-image:url(../../assets/estrategia/title-4.png);
+	background-size:120px;
+	z-index: 100;}
+
+.text{margin-top: 300px; background-position: center top;}
+.text-1{background-image:url(../../assets/estrategia/text-1.png);
+	background-size:125px;
+	z-index: 100;}
+.text-2{background-image:url(../../assets/estrategia/text-2.png);
+	background-size:110px;
+	z-index: 100;}
+.text-3{background-image:url(../../assets/estrategia/text-3.png);
+	background-size:120px;
+	z-index: 100;}
+.text-4{background-image:url(../../assets/estrategia/text-4.png);
+	background-size:120px;
+	z-index: 100;}
+
+.fifth-st{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background: #fd713b ;
+	opacity: 0.0;
+}
+
+.fifth-st.text{
+	position: absolute;
+	margin: auto;
+	left: 0; right: 0; bottom: 0; top: 0;
+	height: 500px;
+	width: 1035px;
+	background: url(../../assets/textos/_faz_analise_profunda.png) right bottom;
+	background-repeat: no-repeat;
+	opacity: 0.0;
+}
+.baloon-market-map{
+    background-image: url(../../assets/images/baloon-for-ups.png);
+    height: 570px;
+    width: 1165px;
+    position: absolute;
+    z-index: 1000;
+    background-position-x: left;
+    background-repeat: no-repeat;
+    right: -100%;
+    left: 100%;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    background-size: 390px;
+    background-position-y: bottom;
+}
+
+.composer{
+	position: absolute;
+	height: 500px;
+	margin: auto;
+	top: 0%;
+	bottom: 0%;
+	left: 100%;
+	right: -100%;
+}
+
+.title-composer{
+	position: absolute;
+	height: 500px;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	left: 100%;
+	right: -100%;
+	width: 1000px;
+	background-image: url(../../assets/estrategia/composer-title.png);
+	background-position-y: top;
+	background-position-x: left;
+	background-size: 350px;
+	background-repeat: no-repeat; 
+}
+
+.gps-composer-fourth{
+	position: absolute;
+	height: 500px;
+	margin: auto;
+	top: 0%;
+	bottom: 0%;
+	left: 100%;
+	right: -100%;
+	width: 1000px;
+	background-image: url(../../assets/estrategia/gps-laranja.png);
+	background-position-y: top;
+	background-position-x: right;
+	background-size: 200px;
+	background-repeat: no-repeat; 
+}
+
+
+.lines-composer{
+	position: absolute;
+	height: 461px;
+	margin: auto;
+	top: 0%;
+	bottom: 0%;
+	left: 100%;
+	right: -100%;
+	width: 0px;
+	background-image: url(../../assets/estrategia/leech.png);
+	background-position-y: top;
+	background-position-x: right;
+	background-size: 480px;
+	background-repeat: no-repeat; 
+}
+
+.gps-composer1{
+	background-image: url(../../assets/estrategia/gps-composer-01.png);
+	background-position-y: bottom;
+	background-position-x: left;
+	background-repeat: no-repeat; 
+	background-size: 350px;
+	width: 987px;
+}
+
+.gps-composer2{
+	background-image: url(../../assets/estrategia/gps-composer-02.png);
+	background-position-y: bottom;
+	background-position-x: 4%;
+	background-repeat: no-repeat; 
+	background-size: 275px;
+	width: 974px;
+}
+
+.gps-composer3{
+	background-image: url(../../assets/estrategia/gps-composer-03.png);
+	background-position-y: bottom;
+	background-position-x: 2%;
+	background-repeat: no-repeat; 
+	background-size: 200px;
+	width: 855px;
+}
+
+.title-maps-orange{
+    opacity: 0;
+    position: absolute;
+    height: 562px;
+    margin: auto;
+    top: 0%;
+    bottom: 0%;
+    left: 100%;
+    right: -100%;
+    width: 1225px;
+    background-image: url(../../assets/estrategia/gps-mapa-title.png);
+    background-position-y: top;
+    background-position-x: left;
+    background-repeat: no-repeat;
+}
+.title-maps-white{
+    opacity: 0;
+    position: absolute;
+    height: 531px;
+    margin: auto;
+    top: 0%;
+    bottom: 0%;
+    left: 100%;
+    right: -100%;
+    width: 1165px;
+    background-image: url(../../assets/textos/_mapa_de_mercado_cinza.png);
+    background-position-y: top;
+    background-position-x: left;
+    background-repeat: no-repeat;
+}
+
+.gps-maps-orange{
+    opacity: 0;
+    position: absolute;
+    height: 508px;
+    margin: auto;
+    top: 0%;
+    bottom: 0%;
+    left: 100%;
+    right: -100%;
+    width: 997px;
+    z-index: 1000;
+    background-image: url(../../assets/estrategia/gps-laranja.png);
+    background-position-y: top;
+    background-position-x: right;
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+.gps-maps-white{
+	opacity: 0;
+	position: absolute;
+	height: 500px;
+	margin: auto;
+	top: 0%;
+	bottom: 0%;
+	left: 100%;
+	z-index: 1000;
+	right: -100%;
+	width: 1000px;
+	background-image: url(../../assets/estrategia/gps-branco.png);
+	background-position-y: top;
+	background-position-x: right;
+	background-size: 200px;
+	background-repeat: no-repeat; 
+}
+
+.gps-delivered{
+	position: absolute;
+	height: 600px;
+	margin: auto;
+	top: 0%;
+	bottom: 0%;
+	left: 100%;
+	right: -100%;
+	width: 1000px;
+	background-image: url(../../assets/estrategia/gps-entregavel-1.png);
+	background-position-y: bottom;
+	background-position-x: right;
+	background-size: 225px;
+	background-repeat: no-repeat; 
+}
+
+.gps-mapping{
+	width: 1100px;
+	height: 500px;
+	position: absolute;
+	margin: auto;
+	top: 0%;
+	bottom: 0%;
+	left: 0;
+	right: 0;
+	opacity: 0;
+	background-repeat: no-repeat; 
+}
+
+.gps-map-1{
+    background-image: url(../../assets/estrategia/market-map-text-1.png);
+    background-size: auto;
+    background-position-y: 58%;
+    background-position-x: left;
+    width: 975px;
+    opacity: 0;
+}
+.gps-map-2{
+	background-image:url(../../assets/estrategia/gps-circle-1.png);
+	background-size: 200px;
+    z-index: 1000;
+    background-position-y: 50%;
+    background-position-x: 9%;
+}
+.gps-map-3{
+	background-image:url(../../assets/estrategia/gps-circle-2.png);
+	background-size: 200px;
+    z-index: 1000;
+    background-position-y: 50%;
+    background-position-x: 9%;
+}
+.gps-map-4{
+	background-image:url(../../assets/estrategia/gps-circle-3.png);
+	background-size: 200px;
+    z-index: 1000;
+    background-position-y: 50%;
+    background-position-x: 9%;
+}
+
+.gps-text-map-2{
+    background-image: url(../../assets/estrategia/gps-text-1.png);
+    background-size: 200px;
+    background-position-y: 90%;
+    background-position-x: 9%;
+}
+.gps-text-map-3{
+    background-image: url(../../assets/estrategia/gps-text-2.png);
+    background-size: 125px;
+    background-position-y: 83%;
+    background-position-x: 9%;
+}
+.gps-text-map-4{
+    background-image: url(../../assets/estrategia/gps-text-3.png);
+    background-size: 169px;
+    background-position-y: 94%;
+    background-position-x: 9%;
+}
+
+.seventy-st{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background: #fd713b;
+	opacity: 0;
+}
+.seventy-st-background{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background: #fd713b;
+	opacity: 0;
+}
+.seventy-st-title-white{
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    position: absolute;
+    height: 555px;
+    width: 1100px;
+    background: url(../../assets/estrategia/visao-de-negocio-branco.png) top left;
+    background-repeat: no-repeat;
+    opacity: 0;	
+}
+.seventy-st-title-orange{
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    position: absolute;
+    height: 555px;
+    width: 1100px;
+    background: url(../../assets/estrategia/visao-de-negocio-laranja.png) top left;
+    background-repeat: no-repeat;
+    opacity: 0;
+    /* background-size: 950px; */
+}
+.seventy-st-text{
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    opacity: 0.0;
+    position: absolute;
+    height: 345px;
+    width: 1005px;
+    background: url(../../assets/textos/_gera-desafios.png) bottom right;
+    background-repeat: no-repeat;
+    /* background-size: 950px; */
+}
+
+.ninety-st-title-white{
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index: 12;
+    position: absolute;
+    height: 515px;
+    width: 1235px;
+    background: url(../../assets/textos/rota-de-comunicacao-branco.png) top left;
+    background-repeat: no-repeat;
+    opacity: 0;
+}
+.ninety-st-title-orange{
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index: 12;
+    position: absolute;
+    height: 515px;
+    width: 1235px;
+    background: url(../../assets/textos/rota-comunicacao-laranja.png) top left;
+    background-repeat: no-repeat;
+    opacity: 0;
+}
+.ninety-st-text{
+    margin: auto;
+    left: 0;
+    z-index: 10;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    opacity: 0.0;
+    position: absolute;
+    height: 295px;
+    width: 1005px;
+    background: url(../../assets/textos/desenvolver_estrategias.png) bottom right;
+    background-repeat: no-repeat;
+}
+
+.title-visao{
+	position: absolute;
+	height: 500px;
+	margin: auto;
+	top: 0%;
+	bottom: 0%;
+	opacity: 0;
+	width: 1000px;
+	background-image: url(../../assets/estrategia/gps-visao-main-title.png);
+	background-position-y: top;
+	background-position-x: left;
+	background-size: 350px;
+	background-repeat: no-repeat; 
+}
+
+.gps-visao{
+	position: absolute;
+	height: 500px;
+	margin: auto;
+	top: 0%;
+	bottom: 0%;
+	opacity: 0;
+	width: 1000px;
+	background-image: url(../../assets/estrategia/gps-laranja.png);
+	background-position-y: top;
+	background-position-x: right;
+	background-size: 200px;
+	background-repeat: no-repeat; 
+}
+
+.gps-visao{
+	width: 1000px;
+	height: 500px;
+	position: absolute;
+	margin: auto;
+	top: 0%;
+	bottom: 0%;
+	left: 0%;
+	right: 0%;
+	background-repeat: no-repeat; 
+}
+
+.gps-visao-1{
+    height: 225px;
+    opacity: 0;
+    background-position-y: bottom;
+    background-position-x: left;
+    background-image: url(../../assets/estrategia/bussiness-view-text-1.png);
+    width: 880px;
+}
+.gps-visao-2{
+	background-image:url(../../assets/estrategia/gps-visao-1.png);
+	background-size: 150px;
+    background-position-y: 100%;
+    background-position-x: 50%;
+}
+.gps-visao-3{
+	background-image:url(../../assets/estrategia/gps-visao-2.png);
+	background-size: 150px;
+    background-position-y: 100%;
+    background-position-x: 50%;
+}
+.gps-visao-4{
+	background-image:url(../../assets/estrategia/gps-visao-3.png);
+	background-size: 150px;
+    background-position-y: 100%;
+    background-position-x: 50%;
+}
+
+.gps-text-visao-2{
+    background-image: url(../../assets/estrategia/gps-visao-texto-1.png);
+    background-size: 403px;
+    background-position-y: 96%;
+    background-position-x: right;
+}
+.gps-text-visao-3{
+    background-image: url(../../assets/estrategia/gps-visao-texto-2.png);
+    background-size: 393px;
+    background-position-y: 50%;
+    background-position-x: 99%;
+}
+.gps-text-visao-4{
+    background-image: url(../../assets/estrategia/gps-visao-texto-3.png);
+    background-size: 405px;
+    background-position-y: 6%;
+    background-position-x: right;
+}
+
+.ninety-st{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background: #fd713b ;
+	background-repeat: no-repeat;
+	background-size: 950px;
+}
+
+.tenth-st{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background: #e1e1e1 ;
+}
+.tenth-st-text{
+    position: absolute;
+    height: 582px;
+    width: 1070px;
+    background: url(../../assets/textos/_o_modulo_rota.png) right bottom;
+    background-repeat: no-repeat;
+    margin: auto;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    opacity: 0;
+}
+
+.eleventh-st{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background: #e1e1e1;
+	background-repeat: no-repeat;
+	background-size: 950px;
+}
+.eleventh-st-size{
+	position: absolute;
+	width: 1050px;
+	margin: auto;
+	left: 0;
+	right: 0;
+	opacity:0;
+	top: 0;
+	bottom: 0;
+	z-index: 1000000000;
+	background:  url(../../assets/images/correct-size-final.png) left center;
+	height: 0;
+	background-repeat: no-repeat;
+}
+
+.eleventh-st-comunica{
+	position: absolute;
+	width: 1050px;
+	margin: auto;
+	left: 0;
+	right: 0;
+	opacity:0;
+	top: 0;
+	bottom: 0;
+	z-index: 1000000000;
+	background:  url(../../assets/images/E1-gps-comunicacao.png) right bottom;
+	height: 0;
+	background-repeat: no-repeat;
+}
+
+.central-gps{
+	position: absolute;
+	width: 100%;
+	margin: auto;
+	left: 100%;
+	right: -100%;
+	top: 0;
+	bottom: 0;
+}
+.eleventh-st-1{
+	z-index: 1000000000;
+	background:  url(../../assets/images/central-gps-1.png) center bottom;
+	height: 655px;
+	background-size: 145px;
+	background-repeat: no-repeat;
+}
+.eleventh-st-2{
+    z-index: 100000000;
+    background: url(../../assets/images/central-gps-2.png) center bottom;
+    height: 641px;
+    background-size: 135px;
+    background-repeat: no-repeat;
+}
+.eleventh-st-3{
+    z-index: 1000000;
+    background: url(../../assets/images/central-gps-3.png) center bottom;
+    height: 642px;
+    background-size: 135px;
+    background-repeat: no-repeat;
+}
+.eleventh-st-4{
+    z-index: 100000;
+    background: url(../../assets/images/central-gps-4.png) center bottom;
+    height: 634px;
+    background-size: 135px;
+    background-repeat: no-repeat;
+}
+.eleventh-st-5{
+    z-index: 10000;
+    background: url(../../assets/images/central-gps-5.png) center bottom;
+    height: 631px;
+    background-size: 135px;
+    background-repeat: no-repeat;
+}
+
+
+/*	COMUNICACAO	*/
+.comunicacao-area{
+	position: absolute;
+	bottom: 0%;
+	height: 100%;
+	width:100%;
+	background-size:1950px;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+	background-image: url(../../assets/background/B0-comunicacao.jpg) ;
+}
+.comunicacao-caller{
+	position: absolute;
+	height: 100%;
+	width:100%;
+	background-size:1200px;
+	background-position:center;
+	background-image: url(../../assets/comunicacao/comunica-full.png) ;
+    background-repeat: no-repeat;
+}
+.comunicacao-cover{
+	position: absolute;
+	height: 100%;
+	width:100%;
+	background-size: 1900px;
+	background: url(../../assets/images/cover-screen-dot.png) center center;
+	background-position:center;
+    background-repeat: no-repeat;
+}
+.comunicacao-text{
+	position: absolute;
+	height: 100%;
+	width:100%;
+	background-size: 450px;
+	background-position-y:center;
+	background-position-x:60%;
+	background-image: url(../../assets/textos/comunicacao-text-01.png) ;
+    background-repeat: no-repeat;
+}
+
+.comunicacao-white{
+    position: absolute;
+    height: 550px;
+    width: 1085px;
+    z-index: 100;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    /* background-size: 300px; */
+	background-position-y:top;
+	background-position-x:right;
+	background-image: url(../../assets/comunicacao/comunicacao-full-gray.png) ;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+.comunicacao-orange{
+    position: absolute;
+    height: 550px;
+    width: 1085px;
+    z-index: 100;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    /* background-size: 300px; */
+	background-position-y:top;
+	background-position-x:right;
+	background-image: url(../../assets/comunicacao/comunicacao-full-orange.png) ;
+    background-repeat: no-repeat;
+    opacity: 0;
+}
+.third-co{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-size: 400px;
+	background-position: center;
+    background-color: #e1e1e1;
+	background-image: url(../../assets/comunicacao/comunica-service-1.png) ;
+    background-repeat: no-repeat;
+}
+.third-o-co{
+	position: absolute;
+	right: 0;
+	width: 0%;
+	height: 100%;
+	background-size: 400px;
+	background-position: center;
+	background-color: #fd713b;
+	background-image: url(../../assets/comunicacao/comunica-service-2-cc.png) ;
+    background-repeat: no-repeat;
+}
+
+/*	VISUAL MERCHANDISING	*/
+.visual-area{
+	position: absolute;
+	height: 100%;
+	bottom: 0%;
+	width:100%;
+	background-size:1950px;
+    background-position-x: left;
+    background-position-y: center;
+    background-repeat: no-repeat;
+	background-image: url(../../assets/background/B0-vm.jpg) ;
+}
+.visual-caller{
+	position: absolute;
+	height: 100%;
+	width:100%;
+	background-size:1000px;
+	background-position:center;
+    background-repeat: no-repeat;
+	background-image: url(../../assets/textos/_vm.png) ;
+}
+.visual-cover{
+	position: absolute;
+	height: 100%;
+	width:100%;
+	background-size: 600px;
+	background: url(../../assets/images/cover-screen-dot.png) center center;
+	background-position:center;
+    background-repeat: no-repeat;
+}
+.visual-text{
+	position: absolute;
+	height: 100%;
+	width:100%;
+	background-size: 600px;
+	background-position-y:center;
+	background-position-x:75%;
+	background-image: url(../../assets/textos/visual-text-01.png) ;
+    background-repeat: no-repeat;
+}
+
+.visual-white{
+    position: absolute;
+    height: 550px;
+    width: 1085px;
+    margin: auto;
+    z-index: 1000;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    /* background-size: 60px; */
+    background-position-y: top;
+    background-position-x: right;
+    background-image: url(../../assets/textos/_vm-white.png);
+    background-repeat: no-repeat;
+}
+
+.visual-orange{
+    position: absolute;
+    height: 550px;
+    width: 1085px;
+    opacity: 0;
+    z-index: 1000;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    /* background-size: 60px; */
+    background-position-y: top;
+    background-position-x: right;
+    background-image: url(../../assets/textos/_vm-laranja.png);
+    background-repeat: no-repeat;
+}
+
+
+.third-vm{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-size: 1000px;
+	background-position: center;
+    background-color: #e1e1e1;
+	background-image: url(../../assets/visual/vm-25-2.png) ;
+    background-repeat: no-repeat;
+}
+
+/*People*/
+
+.people-area{
+	position: absolute;
+	height: 100%;
+	bottom: 0%;
+	width:100%;
+	background-size:1950px;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+	background-image: url(../../assets/background/B0-pessoas.jpg) ;
+}
+
+.people-caller{
+	position: absolute;
+	height: 100%;
+	width:100%;
+	background-size:850px;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+	background-image: url(../../assets/pessoas/pessoas-call.png) ;
+}
+.seccond-po{
+	position: absolute;
+	height: 100%;
+	width:100%;
+	background-size:1000px;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-color: black;
+	background-image: url(../../assets/pessoas/people-cover.png) ;
+}
+.third-po{
+	position: absolute;
+	height: 100%;
+	width:100%;
+	background-size:1000px;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-color: black;
+	background-image: url(../../assets/pessoas/pessoas-28.png) ;
+}
+.fourth-po{
+	position: absolute;
+	height: 100%;
+	width:100%;
+	background-size:1000px;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-color: #e1e1e1;
+	background-image: url(../../assets/pessoas/reconhecimento-cover.png) ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
